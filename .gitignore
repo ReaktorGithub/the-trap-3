@@ -1,0 +1,67 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Unreal Engine generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Unreal Engine generated files
+*.opensdf
+*.sdf
+*.sln
+*.tmp
+*.log
+
+# Crash reports
+crashinfo--*
+
+# Mac
+.DS_Store
+
+# Linux
+*.swp
+*~
+
+# Packaging artifacts
+*.pak
+*.sig
+
+# Generated project files
+*.xcodeproj
+*.xcworkspace
+
+# Unreal Engine auto-generated files
+*.generated.h
+*.gen.cpp
+
+# Ignore local engine association changes if desired
+# *.uproject
+
+# Keep plugin source but ignore plugin build artifacts
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Ignore local derived data cache anywhere
+**/DerivedDataCache/
+
+# Ignore build outputs
+**/Binaries/
+**/Intermediate/
